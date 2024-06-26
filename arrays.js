@@ -12,3 +12,11 @@ console.log(newArray2);
 // new ARRAY
 const cities= ["kigali","Rubavu","Musanze"]
 console.log (cities[0])
+// arrays function
+const array=[70,80,90,78,75,30]
+let sum =0;
+for (let index = 0; index < array.length; index++) {
+    sum += array[index];
+    
+}
+console.log(sum);
