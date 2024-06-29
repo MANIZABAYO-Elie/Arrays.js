@@ -30,7 +30,7 @@ return number
 console.log(filteredNumbers);
 // filter arrays
 
-const values =[13,28,29,40,30,37,35,43]
+const values =[13,28,74,80,90,29,40,30,37,35,43]
 const even = values.filter(getEvenNumber)
 function getEvenNumber(number){
     if (number%2===0) {
